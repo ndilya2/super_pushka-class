@@ -54,7 +54,10 @@ public class RobotAI : MonoBehaviour
         Destroy(projectile, 2f); // ”ничтожаем снар€д через 2 секунды
     }
 
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (true) { }
+    }
     // Start is called before the first frame update
     void Start()
     {
